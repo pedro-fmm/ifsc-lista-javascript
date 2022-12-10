@@ -1,0 +1,21 @@
+section {
+    display: grid;
+    grid-template-areas: 
+        "resultado resultado resultado resultado"
+        "btn btn btn btn-operacao"
+        "btn btn btn btn-operacao"
+        "btn btn btn btn-operacao"
+        "igual";
+}
+
+span {
+    grid-area: "resultado";
+}
+
+button.btn-num-calculadora {
+    grid-area: "btn";
+}
+
+button.btn-calculadora {
+    grid-area: "btn-operacao";
+}
